@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>ex3</title>
+    <script type="text/javascript" src="../JS/ex3.js"></script>
+</head>
+
+<body>
+    <form name="form" action="" method="get" onsubmit="validate()">
+        <div>
+            Cognome: <input type="text" maxlength="40" name="cognome">
+        </div>
+        <div>
+            Nome: <input type="text" maxlength="30" name="nome">
+        </div>
+        <div>
+            Matricola: <input type="number" maxlength="12" name="matricola">
+        </div>
+        <div>
+            Regione di residenza:
+            <select name="regione">
+            <option value="" selected></option>
+            <option value="Lombardia">Lombardia</option>
+            <option value="Lazio">Lazio</option>
+            <option value="Campania">Campania</option>
+            <option value="Veneto">Veneto</option>
+            <option value="Sicilia">Sicilia</option>
+            <option value="Emilia-Romagna">Emilia-Romagna</option>
+            <option value="Piemonte">Piemonte</option>
+            <option value="Puglia">Puglia</option>
+            <option value="Toscana">Toscana</option>
+            <option value="Calabria">Calabria</option>
+            <option value="Sardegna">Sardegna</option>
+            <option value="Liguria">Liguria</option>
+            <option value="Marche">Marche</option>
+            <option value="Abruzzo">Abruzzo</option>
+            <option value="Friuli-Venezia Giulia">Friuli-Venezia Giulia</option>
+            <option value="Trentino-Alto Adige">Trentino-Alto Adige</option>
+            <option value="Umbria">Umbria</option>
+            <option value="Basilicata">Basilicata</option>
+            <option value="Molise">Molise</option>
+            <option value="Valle d'Aosta">Valle d'Aosta</option></select>
+        </div>
+        <div>
+            Email: <input type="email" name="email" maxlength="30">
+        </div>
+        <div>
+            Telefono: <input type="tel" name="tel" maxlength="16">
+        </div>
+        <div>
+            Richieste particolari: <textarea name="richieste" rows="12" cols="60"></textarea>
+        </div>
+        <input type="submit"></input>
+        <input type="reset"></input>
+    </form>
+</body>
+
+</html>

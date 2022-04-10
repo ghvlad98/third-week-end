@@ -1,0 +1,11 @@
+
+I'm the #1 heading. - Name: h1; Type: block
+I'm all ready to link to another page. - Name: a; Type: inline
+Emphasize text with me. - Name: em; Type: inline
+I'm a list, but I don't have my affairs in order. - Name: ul; Type: block
+I'm a real linebreaker. - Name: br; Type: inline
+I'm an item that lives inside a list. - Name: li; Type: block
+I keep my list items in order. - Name: ol; Type: block
+I'm all about image. - Name: img; Type: block
+Quote inside a paragraph with me. - Name: p; Type: block
+Use me to quote text that stands on its own. - Name: blockquote; Type: block

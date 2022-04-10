@@ -1,0 +1,32 @@
+
+body {
+    background-color: #9dbc5e;
+}
+
+h1 {
+    text-align: center;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: #9cbc2b;
+    width: 35%;
+    margin: auto;
+}
+
+.info {
+    background-color: #bad06c;
+    border: 2px solid #e2f1ac;
+    border-radius: 5px;
+    margin-bottom: 2px;
+}
+
+label{
+    float: left;
+    clear: left;
+    width: 350px;
+}

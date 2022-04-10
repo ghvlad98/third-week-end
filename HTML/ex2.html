@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Questionario di raccolta dati per creare una rete</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/ex2.css" />
+</head>
+
+<body>
+    <h1>Questionario di raccolta dati per creare una rete</h1>
+    <p class="intro">
+        I dati indicati di seguito sono alcuni di quelli necessari da raccogliere prima di mettersi alle prese con la<br />
+        realizzazione di una rete.<br />
+        E' in primo luogo necessario capire le funzioni della rete, a cosa e' dedicata? Quanto deve essere grande?<br />
+        Sappiamo gia' che ci sara' un solo modem/router? Oppure serve qualcosa di piu' complesso?<br />
+        Quindi e' necessario capire quanti e quali sono i device che apparterranno alla rete? Quali sono le<br />
+        caratteristiche di questi device? Infine una volta raccolti tutti i dati si puo' finalmente partire con la<br />
+        progettazione della rete.
+    </p>
+    <form method="get">
+        <div class="container">
+            <div>
+                Step 1: Dati della rete
+            </div>
+            <div class="info">
+                <label>Nome e Cognome del responsabile</label><input type="text" placeholder="Nome e Cognome" />
+            </div>
+            <div class="info">
+                <label>Indirizzo</label><input type="text" placeholder="indirizzo" />
+            </div>
+            <div class="info">
+                <label>Numero delle sedi dell'azienda</label><input type="text" placeholder="sedi" />
+            </div>
+            <div class="info">
+                <label>Data di Compilazione</label><input type="text" placeholder="gg/mm/aaaa" />
+            </div>
+            <div>
+                Step 2: Dimensioni della rete in base alla tipologia
+            </div>
+            <div class="info">
+                <label>LAN</label><input type="checkbox" />
+            </div>
+            <div class="info">
+                <label>MAN</label><input type="checkbox" />
+            </div>
+            <div class="info">
+                <label>WAN</label><input type="checkbox" />
+            </div>
+            <div class="info">
+                <label>Altro</label><input type="text" placeholder="Specificare" />
+            </div>
+            <div>
+                Step 3: E' gia' nota la forma della rete (topologia)
+            </div>
+            <div class="info">
+                <div>
+                    <label>A stella</label><input type="radio" name="topologia" />
+                </div>
+                <div>
+                    <label>A bus</label><input type="radio" name="topologia" />
+                </div>
+                <div>
+                    <label>Ad albero</label><input type="radio" name="topologia" />
+                </div>
+                <div>
+                    <label>Altro</label><input type="text" placeholder="Specificare" />
+                </div>
+            </div>
+            <div>
+                Step 4: Caratteristiche del PC
+            </div>
+            <div>
+                Recupera tutti i dati del tuo PC
+            </div>
+            <div class="info">
+                <label>Processore</label><input type="text" placeholder="Processore" />
+            </div>
+            <div class="info">
+                <label>RAM</label><input type="text" placeholder="RAM" />
+            </div>
+            <div class="info">
+                <label>C</label><input type="text" placeholder="c" />
+            </div>
+            <div class="info">
+                <label>D</label><input type="text" placeholder="d" />
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
